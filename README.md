@@ -19,15 +19,20 @@ git config --list
 
 ### 1.4 모든 파일 스테이징
 ```
+git clone https://github.com/KEYS-TECH-CORP/BUZZER.git
+```
+
+### 1.5 모든 파일 스테이징
+```
 git add .
 ```
 
-### 1.5 커밋 (변경사항 저장)
+### 1.6 커밋 (변경사항 저장)
 ```
 git commit -m "Initial STM32F103 project setup"
 ```
 
-### 1.6 GitHub에 업로드
+### 1.7 GitHub에 업로드
 ```
 git push origin main
 ```
